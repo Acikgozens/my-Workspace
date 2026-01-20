@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="This is Umut Uygun's personal website showcasing resume, courses, projects, and contact information.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umut Uygun</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ===== MENU ===== -->
+    <nav>
+        <a href="HomePage.html">Home</a>
+        <a href="Resume.html">Resume</a>
+        <a href="Courses.html">Courses</a>
+        <a href="Projects.html">Projects</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+
+    <!-- ===== COURSES ===== -->
+    <section id="courses" class="courses-section">
+        <h2>Courses</h2>
+
+        <!-- Year Buttons -->
+        <div class="year-buttons">
+            <button onclick="showYear('year1')">1st Year</button>
+            <button onclick="showYear('year2')">2nd Year</button>
+        </div>
+
+        <!-- ===== 1st YEAR ===== -->
+        <div id="year1">
+
+            <h3>Fall Semester</h3>
+            <table class="courses-table">
+                <tr>
+                    <th>Course Name</th>
+                    <th>ECTS</th>
+                    <th>Grade</th>
+                </tr>
+
+                <tr>
+                    <td>Business Communication</td>
+                    <td>4</td>
+                    <td>A</td>
+                </tr>
+
+                <tr>
+                    <td>Principles of Accounting</td>
+                    <td>5</td>
+                    <td>A+</td>
+                </tr>
+
+                <tr>
+                    <td>Mathematics I</td>
+                    <td>4</td>
+                    <td>A-</td>
+                </tr>
+
+                <tr>
+                    <td>Fundamentals of Law</td>
+                    <td>4</td>
+                    <td>B+</td>
+                </tr>
+
+                <tr>
+                    <td>Management Information Systems</td>
+                    <td>5</td>
+                    <td>A+</td>
+                </tr>
+
+                <tr>
+                    <td>Principles of Economics</td>
+                    <td>6</td>
+                    <td>B+</td>
+                </tr>
+
+                <tr>
+                    <td>Turkish Language I</td>
+                    <td>2</td>
+                    <td>B-</td>
+                </tr>
+            </table>
+
+            <br>
+
+            <h3>Spring Semester</h3>
+            <table class="courses-table">
+                <tr>
+                    <th>Course Name</th>
+                    <th>ECTS</th>
+                    <th>Grade</th>
+                </tr>
+
+                <tr>
+                    <td>Presentation and Writing Techniques</td>
+                    <td>4</td>
+                    <td>A-</td>
+                </tr>
+
+                <tr>
+                    <td>Introduction to Business</td>
+                    <td>5</td>
+                    <td>A+</td>
+                </tr>
+
+                <tr>
+                    <td>Mathematics II</td>
+                    <td>4</td>
+                    <td>B-</td>
+                </tr>
+
+                <tr>
+                    <td>Information Technologies</td>
+                    <td>5</td>
+                    <td>A</td>
+                </tr>
+
+                <tr>
+                    <td>Turkish Language II</td>
+                    <td>2</td>
+                    <td>B+</td>
+                </tr>
+
+                <tr>
+                    <td>Business Communication II</td>
+                    <td>4</td>
+                    <td>A</td>
+                </tr>
+
+                <tr>
+                    <td>Introduction to Programming and Algorithms</td>
+                    <td>6</td>
+                    <td>B</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- ===== 2nd YEAR ===== -->
+        <div id="year2" style="display: none;">
+
+            <h3>Fall Semester</h3>
+            <table class="courses-table">
+                <tr>
+                    <th>Course Name</th>
+                    <th>ECTS</th>
+                    <th>Grade</th>
+                </tr>
+
+                <tr>
+                    <td>Management and Organization</td>
+                    <td>5</td>
+                    <td>-</td>
+                </tr>
+
+                <tr>
+                    <td>Statistics I</td>
+                    <td>5</td>
+                    <td>-</td>
+                </tr>
+
+                <tr>
+                    <td>Fundamentals of Web Design</td>
+                    <td>6</td>
+                    <td>-</td>
+                </tr>
+
+                <tr>
+                    <td>E-Commerce</td>
+                    <td>5</td>
+                    <td>-</td>
+                </tr>
+
+                <tr>
+                    <td>Programming Languages I</td>
+                    <td>7</td>
+                    <td>-</td>
+                </tr>
+
+                <tr>
+                    <td>History of the Turkish Republic I</td>
+                    <td>2</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2025 Umut Uygun</p>
+        <p>
+            <a href="HomePage.html">Home</a> |
+            <a href="Resume.html">Resume</a> |
+            <a href="Courses.html">Courses</a> |
+            <a href="Projects.html">Projects</a> |
+            <a href="Contact.html">Contact</a>
+        </p>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script>
+        function showYear(yearId) {
+            document.getElementById("year1").style.display = "none";
+            document.getElementById("year2").style.display = "none";
+            document.getElementById(yearId).style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>

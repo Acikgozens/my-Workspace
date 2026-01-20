@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="This is Umut Uygun's personal website showcasing resume, courses, projects, and contact information.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umut Uygun</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ===== MENU ===== -->
+    <nav>
+        <a href="HomePage.html">Home</a>
+        <a href="Resume.html">Resume</a>
+        <a href="Courses.html">Courses</a>
+        <a href="Projects.html">Projects</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p style="font-size: 1.3em; line-height: 1.5em; font-weight: 525;">
+            You can find information about the projects that I worked on, the technologies they use, and detailed
+            information below. Please feel free to contact me to share further project ideas below.
+        </p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Technologies Used</th>
+                    <th>Description</th>
+                    <th>My Role</th>
+                    <th>Status</th>
+                    <th>Links</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Portfolio Website</td>
+                    <td>HTML5, CSS3, JS</td>
+                    <td>A personal portfolio website created to showcase my projects, skills, and experience in a clean
+                        and user-friendly layout. The site focuses on responsive design, modern UI principles, and clear
+                        project presentation.</td>
+                    <td>Frontend Developer</td>
+                    <td>In Development</td>
+                    <td><a href="https://example.com/portfolio" target="_blank">Preview</a></td>
+                </tr>
+                <tr>
+                    <td>Weather App</td>
+                    <td>Python, API, CSS</td>
+                    <td>A web-based weather application that fetches real-time weather data from an external API. Users
+                        can search for cities and view current weather conditions through a simple and intuitive
+                        interface.</td>
+                    <td>Full-Stack Developer</td>
+                    <td>In Development</td>
+                    <td><a href="https://example.com/weather-app" target="_blank">Preview</a></td>
+                </tr>
+                <tr>
+                    <td>Task Manager App</td>
+                    <td>JavaScript, LocalStorage</td>
+                    <td>A task management application that allows users to create, edit, and delete tasks. Tasks are
+                        stored using local storage, ensuring data persistence without a backend service.</td>
+                    <td>Frontend Developer</td>
+                    <td>Completed</td>
+                    <td><a href="#" target="_blank">Preview</a></td>
+                </tr>
+                <tr>
+                    <td>Sandy Tetris Game</td>
+                    <td>HTML5, CSS3, JS</td>
+                    <td>A classic Tetris-style game developed for the web using HTML5 Canvas. The project focuses on
+                        game logic, keyboard controls, collision detection, and score tracking.</td>
+                    <td>Frontend Developer</td>
+                    <td>Pre-Release</td>
+                    <td><a href="#" target="_blank">Preview</a></td>
+                </tr>
+                <tr>
+                    <td>Personal Website</td>
+                    <td>HTML5, CSS3, JS</td>
+                    <td>This project was developed as part of a five-person team. My primary responsibility was
+                        designing and implementing the resume section, while also contributing to the main layout and
+                        overall refinements of the website. The contact information of the other four team members can
+                        be accessed through the contact section.</td>
+                    <td>Frontend Developer</td>
+                    <td>Completed</td>
+                    <td><a href="https://example.com/portfolio" target="_blank">Preview</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="project-details">
+            <h3>Key Areas of Focus in My Projects:</h3>
+            <ul>
+                <li><strong>Responsive Design:</strong> Creating fully responsive layouts that adapt seamlessly to
+                    mobile, tablet, and desktop devices using flexible grids and modern CSS techniques.</li>
+                <li><strong>Semantic HTML:</strong> Writing clean, semantic, and well-structured HTML to improve SEO
+                    performance, accessibility, and overall code readability.</li>
+                <li><strong>User Experience (UX):</strong> Designing intuitive and user-centered interfaces with clear
+                    navigation, interactive elements, and a focus on usability.</li>
+                <li><strong>Performance Optimization:</strong> Optimizing assets and code to ensure fast page load
+                    times, smooth interactions, and efficient rendering across browsers.</li>
+                <li><strong>Security:</strong> Implementing secure coding practices to protect against common
+                    vulnerabilities and ensure data privacy.</li>
+                <li><strong>Basic Accessibility:</strong> Applying accessibility principles to make web content usable
+                    for a wider range of users, including proper labels and contrast.</li>
+
+            </ul>
+        </div>
+
+        <hr>
+        <div class="project-inquiry">
+            <h3>Do you have a project idea?</h3>
+            <p>You can contact me or propose new project ideas by filling out the form below.</p>
+            <form action="#" method="POST">
+
+                <label for="p-name">Name & Surname</label>
+                <input type="text" id="p-name" name="name" placeholder="e.g. John Doe" required>
+
+                <label for="p-mail">E-Mail</label>
+                <input type="email" id="p-mail" name="email" placeholder="e.g. johndoe@mail.com" required>
+
+                <label for="p-type">Project Type</label>
+                <select id="p-type" name="project-type">
+                    <option value="web">Web Design</option>
+                    <option value="e-commerce">E-Commerce</option>
+                    <option value="game">Video Game</option>
+                    <option value="mobile">Mobile App</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="p-desc">Project Details</label>
+                <textarea id="p-desc" name="message" rows="5" placeholder="Briefly describe your project..."
+                    required></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2025 Umut Uygun</p>
+        <p>
+            <a href="HomePage.html">Home</a> |
+            <a href="Resume.html">Resume</a> |
+            <a href="Courses.html">Courses</a> |
+            <a href="Projects.html">Projects</a> |
+            <a href="Contact.html">Contact</a>
+        </p>
+    </footer>
+</body>
+
+</html>
