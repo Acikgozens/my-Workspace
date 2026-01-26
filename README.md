@@ -1,23 +1,52 @@
-# 🐍 Python Learning Journey: Piton Notebook
+# 💻 Enes Efe Açıkgöz | Digital Workspace
 
-Bu depo, bir **Yönetim Bilişim Sistemleri (YBS)** öğrencisi olarak Python programlama dilinde temelden ileri seviyeye doğru ilerlediğim süreci ve aldığım notları içermektedir.
-
-
-
-## 🚀 Proje Hakkında
-Bu çalışma notları, Python'un mantığını kavramak, veri yapılarını öğrenmek ve algoritma yeteneklerimi geliştirmek amacıyla oluşturulmuştur. Her bölüm, teorik bilgilerle birlikte uygulamalı `.ipynb` (Jupyter Notebook) örneklerini içerir.
-
-## 📂 İçerik Yapısı
-Şu anki ilerlememe göre kapsanan konular:
-* **Temel Değişkenler:** Sayılar, Stringler ve Mantıksal (Boolean) ifadeler.
-* **Kontrol Yapıları:** `if`, `elif`, `else` blokları ve mantıksal operatörler (`and`, `or`, `not`).
-* **Döngüler (Çalışılıyor):** `while` ve `for` döngüleri ile iterasyon mantığı.
-* **Veri Yapıları:** Listeler, Sözlükler (Dictionaries) ve Tuple'lar.
-
-## 🛠️ Kullanılan Teknolojiler
-* **Dil:** Python 3.14.2
-* **Ortam:** VS Code & Jupyter Notebook
-* **İşletim Sistemi:** Fedora Linux 
+Bu repository, bir **Yönetim Bilişim Sistemleri (YBS)** öğrencisi olarak akademik çalışmalarımı, yazılım projelerimi ve kişisel teknik gelişimimi belgelediğim ana merkezdir.
 
 
 
+---
+
+## 🚀 Projeler ve Çalışma Alanları
+
+### 🐍 Python & Veri Analitiği
+* **Akbank Python Bootcamp:** Kurs kapsamında hazırlanan notebooklar, algoritma çalışmaları ve veri yapıları örnekleri.
+* **Bireysel Notlar:** Python temellerinden ileri seviye mantıksal işlemlere kadar tutulan detaylı çalışma notları.
+* **Hedef:** Veri analizi ve otomasyon süreçlerinde profesyonelleşmek.
+
+### 🌐 Web Geliştirme (Frontend)
+* **Modern Web:** HTML5 ve CSS3 standartlarında geliştirilen responsive arayüz projeleri.
+* **JS Journey:** Dinamik web yapıları için devam eden JavaScript çalışmaları.
+* **Portfolyo:** Kişisel web sitesi taslakları ve UI/UX denemeleri.
+
+### 🐧 Linux & Sistem Yapılandırması
+* **Sistem:** Fedora Linux
+* **Konfigürasyon:** Terminal verimliliği, bash scriptleri ve kişisel dotfiles çalışmaları.
+
+
+
+---
+
+## 🛠️ Teknik Yetkinlikler
+
+| Alan | Araçlar & Diller |
+| :--- | :--- |
+| **Programlama** | Python, HTML5, CSS3, JavaScript (Öğreniliyor) |
+| **İşletim Sistemi** | Fedora Linux, Windows|
+| **Versiyon Kontrol** | Git, GitHub |
+| **Araçlar** | VS Code, Jupyter Notebook, Bash Terminal |
+
+---
+
+## 🎓 Eğitim Bilgileri
+* **Üniversite:** Yönetim Bilişim Sistemleri (2. Sınıf)
+* **Sertifikasyon:** Akbank Derin Öğrenmeye Giriş
+* **Odak:** Veri Analistliği, Veri Bilimciliği
+
+
+
+---
+
+## 📬 İletişim
+Gelişim sürecim hakkında bilgi almak veya projelerime katkıda bulunmak için benimle GitHub üzerinden iletişime geçebilirsiniz.
+
+*"Teknoloji ve yönetimin kesişim noktasında değer üretmek için..."*
