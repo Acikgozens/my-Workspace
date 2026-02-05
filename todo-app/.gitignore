@@ -1,0 +1,22 @@
+# Python sanal ortamı (Her bilgisayarda yeniden kurulmalıdır, yüklenmez)
+venv/
+ENV/
+env/
+
+# Python'un kendi oluşturduğu geçici dosyalar (Bytecode)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Veritabanı dosyası (Kişisel verilerindir, genellikle git'e atılmaz)
+# Eğer bir şablon veritabanı atmak istersen bunu silebilirsin ama profesyonel yol budur.
+*.db
+*.sqlite3
+
+# Editör ayarları (Kullandığın Cursor veya VS Code ayarları)
+.vscode/
+.idea/
+
+# İşletim sistemine özel dosyalar (Fedora/Linux ve macOS için)
+.DS_Store
+Thumbs.db
